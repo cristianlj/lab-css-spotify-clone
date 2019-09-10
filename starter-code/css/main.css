@@ -1,8 +1,148 @@
 /*
 Colors:
-
 Text: 1A1A1A
 Green: #00B172
 White: #FFF
-
 */
+
+.menu-header {
+    display: flex;
+    justify-content: space-between;
+}
+
+.div-nav {
+    width: 40vw;
+    text-decoration: none;
+}
+
+.menu-flex {
+    display: flex;
+    flex-direction: row;
+    list-style-type: none;
+    justify-content: space-between;
+    font-size: 18pt;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-decoration-line: none;
+    color: black;
+    text-decoration-style: none;
+}
+
+.navMenu {
+    padding: 6px 4px;
+    border: 0px solid #ccc;
+    background-color: #f2f2f2;
+    color: #333;
+    font: 15px arial, sans-serif;
+}
+
+#header {
+    display: flex;
+    justify-content: space-between;
+}
+
+.imageLogo {
+    height: 70px;
+    width: 200px;
+    background: url("../images/spotify-logo.png") no-repeat;
+    /* background-size: 20%, 25%, 25%; */
+    background-size: contain;
+}
+
+.imageCenter {
+    display: flex;
+    align-items: center;
+    height: 800px;
+    width: 100%;
+    background: url("../images/landing.jpg") no-repeat;
+    /* background-size: 20%, 25%, 25%; */
+    background-size: 100%, 100%, 100%;
+}
+
+.div_foto_text {
+    text-align: center;
+    font-family: Roboto, 'Segoe UI', Tahoma, sans-serif;
+    color: white;
+    vertical-align: middle;
+    width: 100%;
+    height: 250px;
+}
+
+h1 {
+    font-size: 48pt;
+}
+
+h3 {
+    font-size: 20pt;
+}
+
+.div-whats {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 28pt;
+    font-weight: bold;
+    text-align: center;
+    text-decoration-color: #19BF86;
+    text-decoration-line: underline;
+
+}
+
+.textGreen {
+    color: #19BF86;
+    font-size: 18pt;
+    font-weight: bold;
+    text-align: center;
+   
+}
+
+.div-box-0 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    align-content: center;
+  
+}
+
+.div-box-1 {
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    align-items: center;
+   
+}
+
+.div-box-music {
+  
+    height: 70px;
+    width: 100px;
+    background: url('../images/music-icon.png') no-repeat;
+    background-size: contain;
+}
+
+.div-box-high-quality {
+  
+    height: 70px;
+    width: 100px;
+    background: url('../images/high-quality-icon.png') no-repeat;
+    background-size: contain;
+}
+
+.div-box-devices {
+  
+    height: 70px;
+    width: 100px;
+    background: url('../images/devices-icon.png') no-repeat;
+    background-size: contain;
+}
+
+
+.block-green{
+background-color: #1AB26B;
+width: 100%;
+height: 500px;
+padding: 10px;
+font-family: Verdana, Geneva, Tahoma, sans-serif;
+color: white;
+
+
+
+}
